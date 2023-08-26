@@ -1,0 +1,4 @@
+C:\Users\colle\csharp-practice\exercises-and-examples\csharp-web-dev-examples\badcatlv\Studios\StudioThree\obj\Debug\net6.0\StudioThree- Restaurant Menu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\colle\csharp-practice\exercises-and-examples\csharp-web-dev-examples\badcatlv\Studios\StudioThree\obj\Debug\net6.0\StudioThree- Restaurant Menu.AssemblyInfoInputs.cache
+C:\Users\colle\csharp-practice\exercises-and-examples\csharp-web-dev-examples\badcatlv\Studios\StudioThree\obj\Debug\net6.0\StudioThree- Restaurant Menu.AssemblyInfo.cs
+C:\Users\colle\csharp-practice\exercises-and-examples\csharp-web-dev-examples\badcatlv\Studios\StudioThree\obj\Debug\net6.0\StudioThree- Restaurant Menu.csproj.CoreCompileInputs.cache

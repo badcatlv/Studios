@@ -3,7 +3,6 @@ C:\Users\colle\csharp-practice\exercises-and-examples\csharp-web-dev-examples\ba
 C:\Users\colle\csharp-practice\exercises-and-examples\csharp-web-dev-examples\badcatlv\Studios\StudioTwo\bin\Debug\net6.0\StudioTwo.runtimeconfig.json
 C:\Users\colle\csharp-practice\exercises-and-examples\csharp-web-dev-examples\badcatlv\Studios\StudioTwo\bin\Debug\net6.0\StudioTwo.dll
 C:\Users\colle\csharp-practice\exercises-and-examples\csharp-web-dev-examples\badcatlv\Studios\StudioTwo\bin\Debug\net6.0\StudioTwo.pdb
-C:\Users\colle\csharp-practice\exercises-and-examples\csharp-web-dev-examples\badcatlv\Studios\StudioTwo\obj\Debug\net6.0\StudioTwo.csproj.AssemblyReference.cache
 C:\Users\colle\csharp-practice\exercises-and-examples\csharp-web-dev-examples\badcatlv\Studios\StudioTwo\obj\Debug\net6.0\StudioTwo.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\colle\csharp-practice\exercises-and-examples\csharp-web-dev-examples\badcatlv\Studios\StudioTwo\obj\Debug\net6.0\StudioTwo.AssemblyInfoInputs.cache
 C:\Users\colle\csharp-practice\exercises-and-examples\csharp-web-dev-examples\badcatlv\Studios\StudioTwo\obj\Debug\net6.0\StudioTwo.AssemblyInfo.cs
