@@ -4,7 +4,7 @@
 {
     private string Item { get; set; }
     private bool IsNew { get; set; } = false;
-    private string LastUpdate { get; set; }
+    private string LastUpdate { get; set; }//use DateTime built in method
 
 
 }
