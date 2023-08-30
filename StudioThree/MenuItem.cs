@@ -19,19 +19,19 @@
             Category = category;
             IsNew = isNew;
             LastUpdate = lastUpdate;
-            //IsNew.ToString();
+            string stringIsNew = IsNew.ToString();//consider an if else statement to print yes or no instead of true or false or some other alternative
 
             Dictionary<string, string> singleMenuItem = new Dictionary<string, string>();
             singleMenuItem.Add("Item", Item);
             singleMenuItem.Add("Price", Price);
             singleMenuItem.Add("Description", Description);
-            singleMenuItem.Add("New Item", IsNew);
-
-
-            //            Dictionary<string, string>  = new Dictionary<string,string>();
+            singleMenuItem.Add("New Item", stringIsNew);
 
             List<Dictionary<string, string>> MenuItems = new List<Dictionary<string, string>>();
-            MenuItems.Add()
+            if (!MenuItems.Contains(singleMenuItem))
+            {
+                MenuItems.Add(singleMenuItem);
+            }
         }
 
 
