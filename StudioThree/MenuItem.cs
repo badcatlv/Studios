@@ -2,112 +2,91 @@
 {
     public class MenuItem
     {
-        public int Number { get; set; }
         public string Name { get; set; }
         public double Price { get; set; }
         public string Description { get; set; }
         public string Category { get; set; }
         public bool IsNew { get; set; } = false;
-        public string Item { get; set; }
-        public List<string> ItemList { get; set; }
-        //public List<string> ItemListByName { get; set; } = new List<string> { };
-        public DateOnly LastUpdate { get; set; }
 
-        public void AddMenuItem(string name, double price, string category, bool isNew, List<string> strings)
+        public MenuItem(string name, double price, string description, string category, bool isNew)
         {
             Name = name;
             Price = price;
+            Description = description;
             Category = category;
             IsNew = isNew;
-            ItemList = strings;
-            //LastUpdate = lastUpdate;
-            //foreach (string item in ItemList)
-            //{
-            //    item.ToLower();
-            //    Name = Name.ToLower();
-            //    for (int i = 0; i < item.Length; i++)
-            //    {
-            //        if (i.Equals(Name))
-            //        {
-            //            Console.WriteLine("Name already taken");
-            //            break;
-            //        }
-            //    }
-            //}
-
-            Item = $"{Name}\nPrice: ${Price}{Environment.NewLine}{Category}{Environment.NewLine}New Item: {IsNew.ToString()}";
-            AddItem(Item, ItemList);
+            // = $"{Name}\nPrice: ${Price}{Environment.NewLine}{Category}{Environment.NewLine}New Item: {IsNew.ToString()}";
         }
 
-        public void AddItem(string itemString, List<string> strings)
-        {
-            string itemToLower = itemString.ToLower();
-            foreach (string item in strings)
-            {
-                item.ToLower();
-
-                if (!item.Equals(itemToLower))
-                {
-                    ItemList.Add(item);
-                }
-            }
-        }
-        public void RemoveItem(string itemString, List<string> strings)
-        {
-            if (strings.Contains(itemString))
-            {
-                strings.Remove(itemString);
-            }
-        }
-
-        public void PrintMenu(List<string> items)
-        {
-            foreach (string item in items)
-            {
-                int i = 0;
-                Console.WriteLine(i + item);
-                i++;
-            }
-            Console.WriteLine(Environment.NewLine + LastUpdate);
-
-        }
-
-        //public void AddItem(<Dictionary<string, string>> item)
+        //public void AddItem(string itemString, List<string> strings)
         //{
-        //    foreach (Dictionary<string, string> kvp in ItemList)
+        //    string itemToLower = itemString.ToLower();
+        //    foreach (string item in strings)
         //    {
+        //        item.ToLower();
 
-        //    }
-        //    //List<Dictionary<string, string>> MenuList = new List<Dictionary<string, string>>();
-        //    if (!MenuList.Contains(menuItem))
-        //    {
-        //        MenuList.Add(menuItem);
-        //        LastUpdate = DateTime.Now;
-        //    }
-        //    else
-        //    {
-        //        Console.WriteLine("Item already on Menu.");
-        //    }
-
-
-        //}
-
-        //public void RemoveItem(Dictionary<string, string> menuItem)
-        //{
-        //    //List<Dictionary<string, string>> MenuList = new List<Dictionary<string, string>>();
-        //    foreach (Dictionary<string, string> item in MenuList)
-        //    {
-        //        if (item.Equals(menuItem))
+        //        if (!item.Equals(itemToLower))
         //        {
-        //            MenuList.Remove(menuItem);
+        //            ItemList.Add(item);
         //        }
         //    }
-        //    if (MenuList.Contains(menuItem))
+        //}
+        //public void RemoveItem(string itemString, List<string> strings)
+        //{
+        //    if (strings.Contains(itemString))
         //    {
-        //        MenuList.Remove(menuItem);
-        //        LastUpdate = DateTime.Now;
+        //        strings.Remove(itemString);
         //    }
         //}
+
+        //public void PrintMenu(List<string> items)
+        //{
+        //    foreach (string item in items)
+        //    {
+        //        int i = 0;
+        //        Console.WriteLine(i + item);
+        //        i++;
+        //    }
+        //    Console.WriteLine(Environment.NewLine + LastUpdate);
+
+        //}
+
+        ////public void AddItem(<Dictionary<string, string>> item)
+        ////{
+        ////    foreach (Dictionary<string, string> kvp in ItemList)
+        ////    {
+
+        ////    }
+        ////    //List<Dictionary<string, string>> MenuList = new List<Dictionary<string, string>>();
+        ////    if (!MenuList.Contains(menuItem))
+        ////    {
+        ////        MenuList.Add(menuItem);
+        ////        LastUpdate = DateTime.Now;
+        ////    }
+        ////    else
+        ////    {
+        ////        Console.WriteLine("Item already on Menu.");
+        ////    }
+
+
+        ////}
+
+        ////public void RemoveItem(Dictionary<string, string> menuItem)
+        ////{
+        ////    //List<Dictionary<string, string>> MenuList = new List<Dictionary<string, string>>();
+        ////    foreach (Dictionary<string, string> item in MenuList)
+        ////    {
+        ////        if (item.Equals(menuItem))
+        ////        {
+        ////            MenuList.Remove(menuItem);
+        ////        }
+        ////    }
+        ////    if (MenuList.Contains(menuItem))
+        ////    {
+        ////        MenuList.Remove(menuItem);
+        ////        LastUpdate = DateTime.Now;
+        ////    }
+        ////}
 
 
     }

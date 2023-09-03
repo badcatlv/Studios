@@ -1,13 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using StudioThreeRestaurantMenu;
 
-List<string> list = new List<string>();
-MenuItem menuItem = new MenuItem();
-menuItem.AddMenuItem("cheese", 9.99, "appetizer", true, list);
-menuItem.AddMenuItem("bread", 5.99, "appetizer", false, list);
-menuItem.AddMenuItem("cheese", 9.99, "appetizer", true, list);
-menuItem.AddMenuItem("lobster", 29.99, "main course", true, list);
-menuItem.AddMenuItem("lobster", 29.99, "main course", false, list);
+List<MenuItem> list = new List<MenuItem>();
 
-Menu menu = new Menu(DateTime.Now, list);
-menu.PrintMenu(DateTime.Now, list);
+Menu menu = new Menu("Menu", list);
+MenuItem Burger = new MenuItem("burger", 8.49, "Quarter pound burger", "Main Course", true);
+menu.AddItem(Burger);
+menu.PrintMenu();
