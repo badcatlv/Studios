@@ -15,7 +15,11 @@
 
         public void AddItem(MenuItem item)
         {
-            MenuList.Add(item);
+                if(!MenuList.Contains(item))
+                {
+                    MenuList.Add(item);
+                }            
+            //MenuList.Add(item);
         }
         public void RemoveItem(MenuItem item)
         {
@@ -52,6 +56,18 @@
                     Console.WriteLine(item.Name);
                 }
             }
+        }
+
+        public override bool Equals(object? obj)
+        {
+            return obj is Menu menu &&
+                   Item == menu.Item &&
+                   EqualityComparer<List<MenuItem>>.Default.Equals(MenuList, menu.MenuList);
+        }
+
+        public override int GetHashCode()
+        {
+            return HashCode.Combine(Item, MenuList);
         }
     }
 }
