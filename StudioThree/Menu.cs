@@ -5,11 +5,11 @@
         public string Item { get; set; }
         public List<MenuItem> MenuList { get; set; }
         public DateTime LastUpdate { get; set; }//use DateTime built in method
-        public Menu(string item)
+        public Menu(string item, List<MenuItem> menuItems)
         {
             Item = item;
             LastUpdate = DateTime.Now;
-            MenuList = new List<MenuItem>();
+            MenuList = menuItems;
             //PrintMenu(LastUpdate, MenuList);
         }
 
@@ -41,6 +41,17 @@
 
             }
             //Console.WriteLine(Environment.NewLine + LastUpdate);
+        }
+
+        public void IsNewItem()
+        {
+            foreach (MenuItem item in MenuList)
+            {
+                if (item.IsNew)
+                {
+                    Console.WriteLine(item.Name);
+                }
+            }
         }
     }
 }

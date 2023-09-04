@@ -1,12 +1,13 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using StudioThreeRestaurantMenu;
 
+var menuItem = new List<MenuItem>();
 
-Menu menu = new Menu("Menu");
+Menu menu = new Menu("Menu", menuItem);
 
 MenuItem Steak = new MenuItem("Steak", 15.59, "Fancy steak", "Main Course", true);
 
-Console.WriteLine(Steak.Name + "printed thru dot notation");
+Console.WriteLine(Steak.Name + " printed thru dot notation");
 Console.WriteLine(Steak.Price);
 Console.WriteLine(Steak.Description);
 Console.WriteLine(Steak.Category);
@@ -31,3 +32,6 @@ MenuItem nuggets = new MenuItem("Chicken Nuggets", 8.99, "Breaded and fried chic
 menu.MenuList.Add(nuggets);
 Console.WriteLine("\nWith nuggets\nItems on menu: " + menu.MenuList.Count);
 menu.PrintMenu();
+
+Console.WriteLine("\nTesting to print out only new items");
+menu.IsNewItem();
