@@ -18,5 +18,15 @@
             // = $"{Name}\nPrice: ${Price}{Environment.NewLine}{Category}{Environment.NewLine}New Item: {IsNew.ToString()}";
         }
 
+        public override bool Equals(object? obj)
+        {
+            return obj is MenuItem item &&
+                   Name == item.Name;
+        }
+
+        public override int GetHashCode()
+        {
+            return HashCode.Combine(Name);
+        }
     }
 }
