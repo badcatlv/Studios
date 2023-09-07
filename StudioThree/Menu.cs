@@ -15,6 +15,7 @@
 
         public void AddItem(MenuItem item)
         {
+            //for loop with an if statement with equals and if it is returns true it gives an error msg
                 if(!MenuList.Contains(item))
                 {
                     MenuList.Add(item);
@@ -23,6 +24,10 @@
         }
         public void RemoveItem(MenuItem item)
         {
+            //int toberemoved = -1
+            // for loop
+            //if statement with to be removed assigned the item that is equal to 'item'
+            // break out at that point, and t removed the newly assigned toberemoved
             if (MenuList.Contains(item))
             {
                 MenuList.Remove(item);
@@ -56,18 +61,6 @@
                     Console.WriteLine(item.Name);
                 }
             }
-        }
-
-        public override bool Equals(object? obj)
-        {
-            return obj is Menu menu &&
-                   Item == menu.Item &&
-                   EqualityComparer<List<MenuItem>>.Default.Equals(MenuList, menu.MenuList);
-        }
-
-        public override int GetHashCode()
-        {
-            return HashCode.Combine(Item, MenuList);
         }
     }
 }
