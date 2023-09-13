@@ -1,0 +1,14 @@
+C:\Users\colle\csharp-practice\exercises-and-examples\csharp-web-dev-examples\badcatlv\Studios\Technology\bin\Debug\net6.0\Technology.exe
+C:\Users\colle\csharp-practice\exercises-and-examples\csharp-web-dev-examples\badcatlv\Studios\Technology\bin\Debug\net6.0\Technology.deps.json
+C:\Users\colle\csharp-practice\exercises-and-examples\csharp-web-dev-examples\badcatlv\Studios\Technology\bin\Debug\net6.0\Technology.runtimeconfig.json
+C:\Users\colle\csharp-practice\exercises-and-examples\csharp-web-dev-examples\badcatlv\Studios\Technology\bin\Debug\net6.0\Technology.dll
+C:\Users\colle\csharp-practice\exercises-and-examples\csharp-web-dev-examples\badcatlv\Studios\Technology\bin\Debug\net6.0\Technology.pdb
+C:\Users\colle\csharp-practice\exercises-and-examples\csharp-web-dev-examples\badcatlv\Studios\Technology\obj\Debug\net6.0\Technology.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\colle\csharp-practice\exercises-and-examples\csharp-web-dev-examples\badcatlv\Studios\Technology\obj\Debug\net6.0\Technology.AssemblyInfoInputs.cache
+C:\Users\colle\csharp-practice\exercises-and-examples\csharp-web-dev-examples\badcatlv\Studios\Technology\obj\Debug\net6.0\Technology.AssemblyInfo.cs
+C:\Users\colle\csharp-practice\exercises-and-examples\csharp-web-dev-examples\badcatlv\Studios\Technology\obj\Debug\net6.0\Technology.csproj.CoreCompileInputs.cache
+C:\Users\colle\csharp-practice\exercises-and-examples\csharp-web-dev-examples\badcatlv\Studios\Technology\obj\Debug\net6.0\Technology.dll
+C:\Users\colle\csharp-practice\exercises-and-examples\csharp-web-dev-examples\badcatlv\Studios\Technology\obj\Debug\net6.0\refint\Technology.dll
+C:\Users\colle\csharp-practice\exercises-and-examples\csharp-web-dev-examples\badcatlv\Studios\Technology\obj\Debug\net6.0\Technology.pdb
+C:\Users\colle\csharp-practice\exercises-and-examples\csharp-web-dev-examples\badcatlv\Studios\Technology\obj\Debug\net6.0\Technology.genruntimeconfig.cache
+C:\Users\colle\csharp-practice\exercises-and-examples\csharp-web-dev-examples\badcatlv\Studios\Technology\obj\Debug\net6.0\ref\Technology.dll

@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudioTwo", "StudioTwo\Stud
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudioThreeRestaurantMenu", "StudioThree\StudioThreeRestaurantMenu.csproj", "{56710653-54E8-4EF0-AC7F-A132978B28BF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Technology", "Technology\Technology.csproj", "{A2CD7029-2AEC-487E-B780-877B8BBAB836}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTechnology", "TestTechnology\TestTechnology.csproj", "{CCB084DA-B63D-42F4-B333-639389705724}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{56710653-54E8-4EF0-AC7F-A132978B28BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56710653-54E8-4EF0-AC7F-A132978B28BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56710653-54E8-4EF0-AC7F-A132978B28BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2CD7029-2AEC-487E-B780-877B8BBAB836}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2CD7029-2AEC-487E-B780-877B8BBAB836}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2CD7029-2AEC-487E-B780-877B8BBAB836}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2CD7029-2AEC-487E-B780-877B8BBAB836}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCB084DA-B63D-42F4-B333-639389705724}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCB084DA-B63D-42F4-B333-639389705724}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCB084DA-B63D-42F4-B333-639389705724}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCB084DA-B63D-42F4-B333-639389705724}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
