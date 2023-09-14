@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudioTwo", "StudioTwo\Stud
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudioThreeRestaurantMenu", "StudioThree\StudioThreeRestaurantMenu.csproj", "{56710653-54E8-4EF0-AC7F-A132978B28BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Technology", "Technology\Technology.csproj", "{A2CD7029-2AEC-487E-B780-877B8BBAB836}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Technology", "Technology\Technology.csproj", "{A2CD7029-2AEC-487E-B780-877B8BBAB836}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTechnology", "TestTechnology\TestTechnology.csproj", "{CCB084DA-B63D-42F4-B333-639389705724}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestTechnology", "TestTechnology\TestTechnology.csproj", "{CCB084DA-B63D-42F4-B333-639389705724}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithQuizes", "FunWithQuizes\FunWithQuizes.csproj", "{78BCE471-43CD-4780-85F7-0969284667CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{CCB084DA-B63D-42F4-B333-639389705724}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCB084DA-B63D-42F4-B333-639389705724}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCB084DA-B63D-42F4-B333-639389705724}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78BCE471-43CD-4780-85F7-0969284667CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78BCE471-43CD-4780-85F7-0969284667CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78BCE471-43CD-4780-85F7-0969284667CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78BCE471-43CD-4780-85F7-0969284667CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
